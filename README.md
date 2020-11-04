@@ -1,5 +1,5 @@
- # Vim Key Binding Docs 
- ### Basic Navigation
+# Vim Key Binding Docs 
+### Basic Navigation
  - j: Down
  - k: Up
  - l: Left
@@ -16,7 +16,7 @@
  - ^: Start of text in current line
  - $: end of current line
 
- ### Basic Editing
+### Basic Editing
  - i: Insert from current cursor postion
  - a: Insert from position next to current cursor position
  - A: Append at end of current line
@@ -34,3 +34,14 @@
  - p: Paste copied content
  - .: Repeat the previous editing contents
  - <leader(';')>+c+<space>: Inline comment current/selected line
+
+### Auto-Completion
+ - Ctrl+Space: Trigger Completion
+ - Ctrl+n: Navigate down the suggestions
+ - Ctrl+p: Navigation up the suggestions
+ - Tab: Select active suggestion
+ - gd: Show Definition
+ - gy: Show Type definition
+ - gi: Show implementation
+ - gr: Show references
+ - K: Show documentation
