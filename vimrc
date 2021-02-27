@@ -74,7 +74,9 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-prettier',
   \ 'coc-json',
-  \ 'coc-emmet'
+  \ 'coc-emmet',
+  \ 'coc-pyright',
+  \ 'coc-markdownlint'
   \ ]
 
 " Always show the signcolumn, otherwise it would shift the text each time
