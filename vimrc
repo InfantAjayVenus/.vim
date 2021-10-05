@@ -42,6 +42,8 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'preservim/nerdcommenter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mxw/vim-jsx'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " End of Section
