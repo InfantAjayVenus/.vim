@@ -56,6 +56,12 @@ set background=dark
 set encoding=UTF-8
 " End of Section
 
+" Custom Key mappings
+map <C-l> :set nu!<CR> " Toggle line number
+nnoremap <C-a> :Format<CR> "Format file
+
+"end of section
+
 " Nerd Tree config Section
 
 map <C-b> :NERDTreeToggle<CR>
